@@ -100,7 +100,7 @@ const Commitment = () => {
                 </p>
             </div>
             <div className="flex h-[40px] mb-4 justify-around">
-                <Link className="w-[30%]" to={'/'}>
+                <Link className="w-[30%] lg:w-[20%]" to={'/'}>
                     <button
                         onClick={countChecked}
                         className="w-[100%] h-full transition duration-500 ease-in-out border-2 border-solid border-black bg-white text-black font-medium rounded hover:scale-105 hover:bg-black hover:text-white hover:font-bold"
@@ -108,7 +108,7 @@ const Commitment = () => {
                         Back
                     </button>
                 </Link>
-                <Link className="w-[30%]" to={'/Focus'}>
+                <Link className="w-[30%] lg:w-[20%]" to={'/Focus'}>
                     <button
                         onClick={countChecked}
                         className="w-[100%] h-full transition duration-500 ease-in-out border-2 border-solid border-black bg-white text-black font-medium rounded hover:scale-105 hover:bg-black hover:text-white hover:font-bold"
