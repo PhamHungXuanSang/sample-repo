@@ -31,11 +31,11 @@ const Commitment = () => {
                 {userData[1].commitmentCheckedArr[0] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(0)}>
                     1. I always know what the sprint goal is and how my work supports it.
@@ -45,11 +45,11 @@ const Commitment = () => {
                 {userData[1].commitmentCheckedArr[1] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(1)}>
                     2. I do everything I can to ensure we achieve the goals of the sprint.
@@ -59,11 +59,11 @@ const Commitment = () => {
                 {userData[1].commitmentCheckedArr[2] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(2)}>
                     3. In my current team, I have never thought of taking a sick day to avoid going into work.
@@ -73,11 +73,11 @@ const Commitment = () => {
                 {userData[1].commitmentCheckedArr[3] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(3)}>
                     4. I always arrive on time for the events, my colleagues never have to wait for me to start the
@@ -88,11 +88,11 @@ const Commitment = () => {
                 {userData[1].commitmentCheckedArr[4] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(4)}>
                     5. I know what it means to say that an item is done, i.e. I know the criteria that meets our

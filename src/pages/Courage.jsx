@@ -38,11 +38,11 @@ const Courage = () => {
                 {userData[0].courageCheckedArr[0] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(0)}>
                     1. I work on the next highest priority Product Backlog Item (I do not cherry pick the work I pick up
@@ -53,11 +53,11 @@ const Courage = () => {
                 {userData[0].courageCheckedArr[1] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(1)}>
                     2. If I see something that is wrong with what I'm being asked to do, I will say so.
@@ -67,11 +67,11 @@ const Courage = () => {
                 {userData[0].courageCheckedArr[2] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(2)}>
                     3. I will question & reproach my team members if I feel that they are doing something wrong.
@@ -81,11 +81,11 @@ const Courage = () => {
                 {userData[0].courageCheckedArr[3] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(3)}>
                     4. Regardless of the person talking, I will correct them if I believe that they are incorrect.
@@ -95,11 +95,11 @@ const Courage = () => {
                 {userData[0].courageCheckedArr[4] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(4)}>
                     5. I will stand firm if I believe I am right, even if I'm in the minority within the group.

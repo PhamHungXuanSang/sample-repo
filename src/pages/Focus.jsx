@@ -31,11 +31,11 @@ const Focus = () => {
                 {userData[2].focusCheckedArr[0] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(0)}>
                     1. Whilst working on a story I do not get distracted.
@@ -45,11 +45,11 @@ const Focus = () => {
                 {userData[2].focusCheckedArr[1] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(1)}>
                     2. If I am not enjoying the work in a story I still give it the attention it needs.
@@ -59,11 +59,11 @@ const Focus = () => {
                 {userData[2].focusCheckedArr[2] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(2)}>
                     3. When enjoying working on a story I will not over work a story just to prolong it.
@@ -73,11 +73,11 @@ const Focus = () => {
                 {userData[2].focusCheckedArr[3] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(3)}>
                     4. I do not procrastinate when working on a story.
@@ -87,11 +87,11 @@ const Focus = () => {
                 {userData[2].focusCheckedArr[4] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(4)}>
                     5. As soon as the story is ready to move into a new state, I will tell my colleagues and either hand

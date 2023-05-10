@@ -31,11 +31,11 @@ const Respect = () => {
                 {userData[4].respectCheckedArr[0] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(0)}>
                     1. I listen with equal intensity regardless of who is talking.
@@ -45,11 +45,11 @@ const Respect = () => {
                 {userData[4].respectCheckedArr[1] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(1)}>
                     2. When listening to people I never talk over them.
@@ -59,11 +59,11 @@ const Respect = () => {
                 {userData[4].respectCheckedArr[2] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(2)}>
                     3. I value everyone's opinion equally.
@@ -73,11 +73,11 @@ const Respect = () => {
                 {userData[4].respectCheckedArr[3] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(3)}>
                     4. I am never concerned who works on what item in the backlog.
@@ -87,11 +87,11 @@ const Respect = () => {
                 {userData[4].respectCheckedArr[4] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(4)}>
                     5. I feel that my opinion is respected and that I have an equal say in the team.

@@ -10,12 +10,12 @@ export default function App() {
     return (
         <>
             <div className="bg-yellow-500 w-full h-[100vh] overflow-hidden flex items-center flex-col">
-                <div className="bg-white w-[90%] lg:w-[70%] h-[10%] py-2 rounded-md lg:rounded-lg mt-4 lg:mt-10 font-bold text-2xl lg:text-4xl flex items-center justify-center">
+                <div className="bg-white w-[90%] lg:w-[70%] h-[8%] lg:h-[10%] py-2 rounded-md lg:rounded-lg mt-4 lg:mt-10 font-bold text-2xl lg:text-4xl flex items-center justify-center">
                     <a
                         href="https://www.scrum.org/resources/blog/visualising-scrum-values"
                         className="hover:scale-105 transition duration-500 ease-in-out hover:cursor-pointer"
                     >
-                        Visualising Scrum Values
+                        Visualising Values Chart
                     </a>
                 </div>
                 <Routes>

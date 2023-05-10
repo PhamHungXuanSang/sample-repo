@@ -31,11 +31,11 @@ const Openness = () => {
                 {userData[3].opennessCheckedArr[0] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(0)}>
                     1. I do not shy away from telling difficult news to team members and stakeholders.
@@ -45,11 +45,11 @@ const Openness = () => {
                 {userData[3].opennessCheckedArr[1] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(1)}>
                     2. I do not hide away difficult issues in the hope that they will sort themselves out.
@@ -59,11 +59,11 @@ const Openness = () => {
                 {userData[3].opennessCheckedArr[2] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(2)}>
                     3. If something / someone is annoying me I will address it / tell them.
@@ -73,11 +73,11 @@ const Openness = () => {
                 {userData[3].opennessCheckedArr[3] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(3)}>
                     4. My colleagues can judge what state of mind I'm in, I can share my feelings with my them.
@@ -87,11 +87,11 @@ const Openness = () => {
                 {userData[3].opennessCheckedArr[4] ? (
                     <input
                         type="checkbox"
-                        className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105"
+                        className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105"
                         defaultChecked
                     />
                 ) : (
-                    <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
+                    <input type="checkbox" className="mr-4 ml-2 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(4)}>
                     5. I always say the true state of an item, and do not over/under play it.
