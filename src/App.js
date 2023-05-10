@@ -15,7 +15,7 @@ export default function App() {
                         href="https://www.scrum.org/resources/blog/visualising-scrum-values"
                         className="hover:scale-105 transition duration-500 ease-in-out hover:cursor-pointer"
                     >
-                        Visualising Values Chart
+                        Visualising Scrum Values
                     </a>
                 </div>
                 <Routes>
