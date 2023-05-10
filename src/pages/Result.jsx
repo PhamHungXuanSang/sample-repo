@@ -1,8 +1,19 @@
 import React from 'react';
-import Chart from 'chart.js/auto';
-import { Radar } from 'react-chartjs-2';
 import { userData } from '../Data';
 import { Link } from 'react-router-dom';
+import { Chart } from 'react-chartjs-2';
+import {
+    Chart as ChartJS,
+    LineController,
+    LineElement,
+    PointElement,
+    RadialLinearScale,
+    Title,
+    Colors,
+    Filler,
+} from 'chart.js';
+
+ChartJS.register(LineController, LineElement, PointElement, RadialLinearScale, Title, Colors, Filler);
 
 const Result = () => {
     const ud = {
@@ -54,7 +65,7 @@ const Result = () => {
 
     return (
         <div className="relative w-[90%] lg:w-[70%] lg:h-[60%] mt-10 bg-white rounded-md lg:rounded-3xl mx-auto">
-            <Radar className="mx-auto w-full" data={ud} options={options} />
+            <Chart type="radar" className="mx-auto w-full" data={ud} options={options} />
             <div className="flex h-[40px] mb-4 justify-around">
                 <Link to={'/Respect'} className="w-[20%]">
                     <button className="w-[100%] h-full lg:absolute lg:bottom-[8%] lg:left-[4%] lg:w-[14%] lg:h-[40px] transition duration-500 ease-in-out border-2 border-solid border-black bg-white text-black font-medium rounded hover:scale-105 hover:bg-black hover:text-white hover:font-bold">

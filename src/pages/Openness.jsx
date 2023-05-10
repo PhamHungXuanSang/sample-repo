@@ -38,7 +38,7 @@ const Openness = () => {
                     <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(0)}>
-                    1. Whilst working on a story I do not get distracted.
+                    1. I do not shy away from telling difficult news to team members and stakeholders.
                 </p>
             </div>
             <div className="flex items-center py-3 lg:py-0 my-2 lg:my-6">
@@ -52,7 +52,7 @@ const Openness = () => {
                     <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(1)}>
-                    2. If I am not enjoying the work in a story I still give it the attention it needs.
+                    2. I do not hide away difficult issues in the hope that they will sort themselves out.
                 </p>
             </div>
             <div className="flex items-center py-3 lg:py-0 my-2 lg:my-6">
@@ -66,7 +66,7 @@ const Openness = () => {
                     <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(2)}>
-                    3. When enjoying working on a story I will not over work a story just to prolong it.
+                    3. If something / someone is annoying me I will address it / tell them.
                 </p>
             </div>
             <div className="flex items-center py-3 lg:py-0 my-2 lg:my-6">
@@ -80,7 +80,7 @@ const Openness = () => {
                     <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(3)}>
-                    4. I do not procrastinate when working on a story.
+                    4. My colleagues can judge what state of mind I'm in, I can share my feelings with my them.
                 </p>
             </div>
             <div className="flex items-center py-3 lg:py-0 my-2 lg:my-6">
@@ -94,8 +94,7 @@ const Openness = () => {
                     <input type="checkbox" className="mx-4 w-5 h-5 hover:cursor-pointer hover:scale-105" />
                 )}
                 <p className="flex-1 hover:cursor-pointer" onClick={() => handleClick(4)}>
-                    5. As soon as the story is ready to move into a new state, I will tell my colleagues and either hand
-                    it over or ensure that they know it is ready to pick up.
+                    5. I always say the true state of an item, and do not over/under play it.
                 </p>
             </div>
             <div className="flex h-[40px] mb-4 justify-around">

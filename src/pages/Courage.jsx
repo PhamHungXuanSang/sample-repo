@@ -18,7 +18,7 @@ const Courage = () => {
     };
 
     const refreshPage = () => {
-        let text = 'You confirm reload?\nEither OK or Cancel.';
+        let text = 'You confirm refresh?\nEither OK or Cancel.';
         if (window.confirm(text) === true) {
             window.location.reload();
         }
