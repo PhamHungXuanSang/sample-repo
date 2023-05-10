@@ -11,9 +11,10 @@ import {
     Title,
     Colors,
     Filler,
+    RadarController,
 } from 'chart.js';
 
-ChartJS.register(LineController, LineElement, PointElement, RadialLinearScale, Title, Colors, Filler);
+ChartJS.register(LineController, LineElement, PointElement, RadialLinearScale, Title, Colors, Filler, RadarController);
 
 const Result = () => {
     const ud = {
