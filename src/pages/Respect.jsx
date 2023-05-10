@@ -27,7 +27,7 @@ const Respect = () => {
             <h1 className="text-center lg:text-left lg:ml-10 mt-2 lg:mt-0 font-semibold hover:scale-105 transition duration-500 ease-in">
                 Respect
             </h1>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[4].respectCheckedArr[0] ? (
                     <input
                         type="checkbox"
@@ -41,7 +41,7 @@ const Respect = () => {
                     1. I listen with equal intensity regardless of who is talking.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[4].respectCheckedArr[1] ? (
                     <input
                         type="checkbox"
@@ -55,7 +55,7 @@ const Respect = () => {
                     2. When listening to people I never talk over them.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[4].respectCheckedArr[2] ? (
                     <input
                         type="checkbox"
@@ -69,7 +69,7 @@ const Respect = () => {
                     3. I value everyone's opinion equally.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[4].respectCheckedArr[3] ? (
                     <input
                         type="checkbox"
@@ -83,7 +83,7 @@ const Respect = () => {
                     4. I am never concerned who works on what item in the backlog.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[4].respectCheckedArr[4] ? (
                     <input
                         type="checkbox"

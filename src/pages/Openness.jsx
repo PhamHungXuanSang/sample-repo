@@ -27,7 +27,7 @@ const Openness = () => {
             <h1 className="text-center lg:text-left lg:ml-10 mt-2 lg:mt-0 font-semibold hover:scale-105 transition duration-500 ease-in">
                 Openness
             </h1>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[3].opennessCheckedArr[0] ? (
                     <input
                         type="checkbox"
@@ -41,7 +41,7 @@ const Openness = () => {
                     1. I do not shy away from telling difficult news to team members and stakeholders.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[3].opennessCheckedArr[1] ? (
                     <input
                         type="checkbox"
@@ -55,7 +55,7 @@ const Openness = () => {
                     2. I do not hide away difficult issues in the hope that they will sort themselves out.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[3].opennessCheckedArr[2] ? (
                     <input
                         type="checkbox"
@@ -69,7 +69,7 @@ const Openness = () => {
                     3. If something / someone is annoying me I will address it / tell them.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[3].opennessCheckedArr[3] ? (
                     <input
                         type="checkbox"
@@ -83,7 +83,7 @@ const Openness = () => {
                     4. My colleagues can judge what state of mind I'm in, I can share my feelings with my them.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[3].opennessCheckedArr[4] ? (
                     <input
                         type="checkbox"

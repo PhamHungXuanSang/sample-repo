@@ -27,7 +27,7 @@ const Commitment = () => {
             <h1 className="text-center lg:text-left lg:ml-10 mt-2 lg:mt-0 font-semibold hover:scale-105 transition duration-500 ease-in">
                 Commitment
             </h1>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[1].commitmentCheckedArr[0] ? (
                     <input
                         type="checkbox"
@@ -41,7 +41,7 @@ const Commitment = () => {
                     1. I always know what the sprint goal is and how my work supports it.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[1].commitmentCheckedArr[1] ? (
                     <input
                         type="checkbox"
@@ -55,7 +55,7 @@ const Commitment = () => {
                     2. I do everything I can to ensure we achieve the goals of the sprint.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[1].commitmentCheckedArr[2] ? (
                     <input
                         type="checkbox"
@@ -69,7 +69,7 @@ const Commitment = () => {
                     3. In my current team, I have never thought of taking a sick day to avoid going into work.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[1].commitmentCheckedArr[3] ? (
                     <input
                         type="checkbox"
@@ -84,7 +84,7 @@ const Commitment = () => {
                     event.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[1].commitmentCheckedArr[4] ? (
                     <input
                         type="checkbox"

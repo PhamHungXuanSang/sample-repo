@@ -34,7 +34,7 @@ const Courage = () => {
             <h1 className="text-center lg:text-left lg:ml-10 mt-2 lg:mt-0 font-semibold hover:scale-105 transition duration-500 ease-in">
                 Courage
             </h1>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[0].courageCheckedArr[0] ? (
                     <input
                         type="checkbox"
@@ -49,7 +49,7 @@ const Courage = () => {
                     in the Sprint)
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[0].courageCheckedArr[1] ? (
                     <input
                         type="checkbox"
@@ -63,7 +63,7 @@ const Courage = () => {
                     2. If I see something that is wrong with what I'm being asked to do, I will say so.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[0].courageCheckedArr[2] ? (
                     <input
                         type="checkbox"
@@ -77,7 +77,7 @@ const Courage = () => {
                     3. I will question & reproach my team members if I feel that they are doing something wrong.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[0].courageCheckedArr[3] ? (
                     <input
                         type="checkbox"
@@ -91,7 +91,7 @@ const Courage = () => {
                     4. Regardless of the person talking, I will correct them if I believe that they are incorrect.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[0].courageCheckedArr[4] ? (
                     <input
                         type="checkbox"

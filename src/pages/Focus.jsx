@@ -27,7 +27,7 @@ const Focus = () => {
             <h1 className="text-center lg:text-left lg:ml-10 mt-2 lg:mt-0 font-semibold hover:scale-105 transition duration-500 ease-in">
                 Focus
             </h1>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[2].focusCheckedArr[0] ? (
                     <input
                         type="checkbox"
@@ -41,7 +41,7 @@ const Focus = () => {
                     1. Whilst working on a story I do not get distracted.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[2].focusCheckedArr[1] ? (
                     <input
                         type="checkbox"
@@ -55,7 +55,7 @@ const Focus = () => {
                     2. If I am not enjoying the work in a story I still give it the attention it needs.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[2].focusCheckedArr[2] ? (
                     <input
                         type="checkbox"
@@ -69,7 +69,7 @@ const Focus = () => {
                     3. When enjoying working on a story I will not over work a story just to prolong it.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[2].focusCheckedArr[3] ? (
                     <input
                         type="checkbox"
@@ -83,7 +83,7 @@ const Focus = () => {
                     4. I do not procrastinate when working on a story.
                 </p>
             </div>
-            <div className="flex items-center py-1 lg:py-0 my-2 lg:my-6">
+            <div className="flex items-center my-2 lg:my-6">
                 {userData[2].focusCheckedArr[4] ? (
                     <input
                         type="checkbox"
